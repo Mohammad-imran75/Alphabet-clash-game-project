@@ -73,23 +73,23 @@
                         Life
                         <img class="" src="images/Vector.svg" alt="">
                         <img class="-ml-4" src="images/offline_bolt.svg" alt="">
-                        <span>1</span>
+                        <span id="current-life">5</span>
                       </button>
-                      <button class="btn bg-[#360490]">
+                      <button class="btn text-white bg-[#360490]">
                         Score
                         <img src="images/monetization_on.svg" alt="">
-                        <span>1</span>
+                        <span id="current-score">0</span>
                       </button>
                 </div>
         </div>
         </section>
         <!-- final score start  -->
-        <section class="score hidden flex justify-center items-center min-h-screen">
+        <section id="final-score" class=" hidden flex justify-center items-center min-h-screen">
             <div class="text-white text-center space-y-4 bg-[#FFFFFF33] p-6 rounded-lg">
                 <h1 class="text-white font-extrabold text-7xl">score :
-                    <span>14</span>
+                    <span id="game-score">14</span>
                 </h1>
-                <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Play Again</button>
+                <button onclick="play()" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Play Again</button>
                 <p class="text-white">Practice will make you a Pro</p>
             </div>
         </section>\
